@@ -1,0 +1,751 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+IE:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+DK+Uloopet:wght@185&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Inter";
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.description {
+    color: gray;
+
+}
+
+/* header  */
+header {
+    background-image: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0.253), rgb(17, 17, 17));
+}
+
+.brand {
+    font-size: 44px;
+    color: rgb(230, 83, 60);
+    font-style: italic;
+}
+
+/* nav bar  */
+
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 69px;
+}
+
+.nav-items {
+    display: flex;
+    gap: 40px;
+    border: 2px solid rgba(128, 128, 128, 0.432);
+    padding: 15px 20px 0 1px;
+    border-radius: 50px;
+    /* align-items: center; */
+}
+
+.nav-items li {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link-home {
+    background-color: rgb(230, 83, 60);
+    padding: 13px 19px;
+    border-radius: 26px;
+    text-decoration: none;
+}
+
+.fa-bars {
+    display: none;
+}
+
+
+/* Hero section  */
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.hero-text {
+    margin-top: 30px;
+}
+
+.hero-title {
+    font-size: 4.5rem;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.hero-des {
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: 400;
+    word-break: keep-all;
+}
+
+#shape {
+    font-family: "Dancing Scrip";
+    font-style: italic;
+    font-weight: 400;
+
+    font-size: 5rem;
+    font-family: "Dancing Script", cursive;
+
+
+    font-style: normal;
+}
+
+.hero-img-part {
+    position: relative;
+}
+
+.join-btn {
+    padding: 16px 40px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 40px;
+    border: none;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.download-btn {
+    padding: 16px 40px;
+    border-radius: 40px;
+    border: 2px solid rgb(255, 255, 255);
+    background: transparent;
+    margin-left: 14px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* Image part  */
+.blur-1 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(48, 48, 48, 0.54);
+    padding: 20px 23px;
+    border-radius: 10px;
+    position: absolute;
+
+    bottom: 100px;
+    left: -50px;
+}
+
+.video-count {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.blur-1-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+}
+
+.blur-2 {
+    backdrop-filter: blur(10px);
+    background-color: rgba(48, 48, 48, 0.54);
+    padding: 20px 23px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+    right: -50px;
+    top: 100px;
+}
+
+.video-count {
+    font-size: 2rem;
+
+}
+
+/*Habits-Section*/
+
+.habits {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.habits>h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+.habits>p {
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 20px;
+
+}
+
+.habits-grid {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    gap: 30px;
+    margin: 0 60px;
+}
+
+.h-g {
+    border-radius: 50%;
+    border: 1px solid whitesmoke;
+}
+
+.habits-grid>div>h4 {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.habit-des {
+    padding-top: 20px;
+}
+
+/*run an extra mile*/
+
+.run-extra {
+    display: flex;
+    margin: 100px 200px;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.192);
+    padding: 54px 41px;
+    border-radius: 16px;
+
+
+}
+
+.run-extra>div>h2 {
+    font-size: 3rem;
+    margin-left: 22px;
+}
+
+.run-des {
+
+    margin: 20px 22px;
+    word-wrap: break-word;
+    word-spacing: 1 rem;
+}
+
+
+.run-img-part {
+    max-width: 360px;
+    max-height: 310px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.run-img-part>img {
+    width: 200%;
+    position: relative;
+    left: -270px;
+}
+
+.run-btn {
+    margin-left: 22px;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/*BMI-CALCULATOR PART*/
+.bmi-calculator-part {
+    background-color: black;
+    text-align: start;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bmi-calculator-part>div>h1 {
+    margin-left: 300px;
+    font-size: 2.5rem;
+    font-weight: 800;
+
+}
+
+.bmi-calculator-part>div>p {
+    margin-left: 300px;
+    margin-bottom: 80px;
+    padding-top: 10px;
+}
+
+.bmi-calculator-math {
+    background-color: rgba(76, 75, 75, 0.855);
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 10px 0px 0px 110px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: 100px;
+}
+
+th,
+td {
+    margin-top: 20px;
+    border-spacing: 0px;
+    border: .5px solid rgba(135, 134, 134, 0.326);
+    padding: 15px;
+    text-align: center;
+}
+
+.calculate-bmi-container {
+    max-width: 80%;
+}
+
+.chart {
+    padding: 30px 0px 0px 40px;
+}
+
+.chart>h2 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+
+    padding-left: 90px;
+}
+
+.calculate-bmi {
+    padding: 30px 0px 40px 0;
+    margin-bottom: 0px;
+    justify-content: start;
+}
+
+.calculate-bmi>h2 {
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+    margin-left: 380px;
+}
+
+.calculate-bmi>p {
+    margin-left: 380px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.div3 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.div4 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.form-action>div>form {
+    margin-left: 380px;
+    padding-left: 0px;
+    display: grid;
+    column-gap: 20px;
+}
+
+.form-action>div>form input,
+select {
+    background: transparent;
+    padding: 10px 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 0;
+
+    background-color: rgba(128, 128, 128, 0.432);
+}
+
+select {
+    color: gray;
+}
+
+.grid-col {
+    margin-top: -30px;
+    grid-column: span 2;
+}
+
+.cal {
+    margin-top: 30px;
+    margin-bottom: -80px;
+}
+
+/*meet-team*/
+.meet-team {
+    margin: 0 120px;
+    margin-bottom: 70px;
+}
+
+.meet-team-heading {
+    text-align: center;
+
+}
+
+.meet-team-heading>h1 {
+    margin-top: 60px;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.meet-team-heading>p {
+    margin-top: 20px;
+    padding-bottom: 25px;
+    font-size: 22px;
+}
+
+.our-team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    gap: 10px;
+    justify-items: center;
+    background-color: rgba(128, 128, 128, 0.288);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+.train {
+    position: relative;
+    width: 380px;
+    height: 280px;
+}
+
+.train img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    filter: brightness(.80);
+}
+
+.trainer-des {
+    position: absolute;
+    bottom: 5px;
+    left: 15px;
+}
+
+.trainer-des>h3 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.trainer-des>p {
+    font-size: 22px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 110px;
+}
+
+.footer1 {
+    margin-left: -60px;
+}
+
+.footer>div>h1 {
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.footer>div>p {
+    font-weight: 400;
+}
+
+.gs {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.gs>h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: 600;
+}
+
+.gs>a {
+    text-decoration: none;
+    margin: 8px 0;
+    color: gray;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+hr {
+    opacity: 50%;
+}
+
+.copyright {
+    color: gray;
+    text-align: center;
+    margin: 16px 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+@media screen and (max-width:576px) {
+    .container {
+        max-width: 85%;
+    }
+
+    /* nav bar  */
+
+    .fa-bars {
+        display: block;
+        font-size: 2rem;
+        margin-right: 10px;
+
+    }
+
+    .nav-bar {
+        align-items: center;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .brand {
+        font-size: 3rem;
+    }
+
+    /* Hero  */
+
+    .hero-section {
+        flex-direction: column;
+        margin: auto;
+        word-wrap: normal;
+    }
+
+    .hero-text-part {
+        max-width: 576px;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .hero-btn-part {
+        display: flex;
+        align-items: center;
+    }
+
+
+    .join-btn {
+        padding: 12px 24px;
+        font-size: 18px;
+        text-wrap: nowrap;
+
+    }
+
+    .download-btn {
+        padding: 10px 22px;
+        border: 2px solid white;
+        font-size: 16px;
+        text-wrap: nowrap;
+    }
+
+    .hero-img-part {
+        max-width: 90%;
+        margin-top: 50px;
+    }
+
+    .hero-img {
+        width: 100%;
+    }
+
+    .blur-1 {
+        padding: 20px 15px;
+    }
+
+    .blur-2 {
+        right: -30px;
+        padding: 20px 15px;
+    }
+
+    .blur-2 p {
+        font-size: 14px;
+    }
+
+    .video-count {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .habits>h1 {
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+
+    .habits-grid {
+        flex-direction: column;
+    }
+
+    .run-extra {
+        flex-direction: column;
+        margin: auto 45px;
+    }
+
+    .run-btn {
+        border-radius: 40px;
+        width: 80%;
+        padding: 15px 15px 15px 0;
+        justify-content: center;
+        text-align: center;
+        margin: 40px 35px;
+    }
+
+    .run-img-part {
+        text-align: center;
+        margin-left: 10px;
+        border-radius: 50px;
+        width: 100%;
+        position: static;
+        margin: auto;
+    }
+
+    .bmi-calculator-part {
+        margin-top: 20px;
+        margin-left: -80px;
+    }
+
+    .bmi-calculator-part>div>h1 {
+        margin-left: 135px;
+
+    }
+
+    .bmi-calculator-part>div>p {
+        margin-left: 140px;
+        margin-bottom: 40px;
+    }
+
+    .chart {
+        margin-left: -100px;
+    }
+
+    .chart>h2 {
+        margin-bottom: 40px;
+        font-size: 1.3rem;
+
+    }
+
+    .bmi-calculator-math {
+        flex-direction: column;
+        gap: 0px;
+        padding-bottom: 60px;
+    }
+
+    table {
+        width: 70%;
+        margin-left: 90px;
+    }
+
+    .calculate-bmi-container {
+        max-width: 70%;
+        margin-left: -10px;
+    }
+
+    .calculate-bmi>h2 {
+        padding-bottom: 10px;
+        margin-left: 37px;
+        font-size: 1.3rem;
+    }
+
+    .calculate-bmi>p {
+        margin-left: 37px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+
+    }
+
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(.5, .5fr);
+        grid-template-rows: repeat(.5, .5fr);
+        grid-column-gap: 0px;
+    }
+
+
+    .form-action>div>form {
+        width: 20%;
+        margin-left: 35px;
+        column-gap: 10px;
+    }
+
+    .form-action>div>form input,
+    select {
+        padding: 6px 0px;
+
+    }
+
+    .cal {
+        margin-top: 10px;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+
+    .meet-team {
+        margin: auto;
+    }
+
+    .meet-team-heading {
+        max-width: 90%;
+    }
+
+    .our-team {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .train {
+        width: 95%;
+        height: 90%;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer1 {
+        padding-bottom: 20px;
+    }
+
+    .gs {
+        margin-left: -60px;
+        margin-top: 10px;
+    }
+
+}
